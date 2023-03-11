@@ -1,26 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Gian Tolentino</title>
-</head>
-<body>
-    <div class="header">
-        <nav>
-        <h2 class="logo">Gian<span>Dev</span></h2>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">Services</a></li>
-                <li><a href="#home">Chat</a></li>
-                <li><a href="#home">About Me</a></li>
-            </ul>
-            <button>Contact</button>
-        </nav>
-        <h1>Hi! I'm <span>Gian</span> <br>a soon to be a Software <span class="span2">Engineer</span>.</h1><br>
-        <h4 class="content">As you can see here in my site there is nothing, this is just a test site of mine to test what <br>I have learned from HTML/CSS. This site has no Java yet because I dun'no. I'm a Grade 9 student <br>and want to make my own website portfolio XD.</h4>
+    <meta charset="UTF-8">
+    <title>Gian | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="#"><span>Gian</span>PFL</a>
+        </div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+            <button class="hamburger">
+                <div class="bar"></div>
+            </button>
+      </nav>
+    </header>
+
+    <nav class="mobile-nav">
+        <a href="./index.html">Home</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./about-me.html">About Me</a>
+        <a href="#">Don't Click</a>
+    </nav>
+    
+    <div class="profile">
+      <img src="./Picsart_23-02-10_17-27-19-669.png">
     </div>
- </body>
+
+    <i class="fa-brands fa-facebook"></i>
+
+    <div class="content">
+      <h1>Welcome to my <span class="class">Portfolio</span>.</h1>
+      <p>"Just being with you is a far greater pleasure than anything I could imagine.
+        I'm addicted to you.
+        It feels like I'm going to die if I'm not breathing the same air as you.
+        Doesn't it feel nice to have someone care about you so much?
+        To have someone who wants to revolve their entire life around you?"</p>
+        <button class="stylus-button" onclick="myFunction()">
+          <span class="stylus-button-text">Random Button</span>
+        </button> 
+      </div>
+
+      <div class="seperator"></div>
+
+          <div class="message-me">
+            <p> “What are your choices? Whom are your choices for? Not just for yourself. Choose now whom you will serve, and that choice is going to affect the next generation, and the next generation and the next. Choice never affects one single person alone. It goes on and on and the effect goes into geography and history. You are part of history and your choices become part of history."
+
+              ~Edith Schaffer</p>
+        <body>
+          <button class="button" onclick="window.open('https://m.me/giankun.io')">Message me</button>
+        </body>
+          </div>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Gian Tolentino</p>
+        <ul class="footer-menu">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
 </html>
